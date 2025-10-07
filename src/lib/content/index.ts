@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Harbor Protocol",
+	description: "Transform illiquid locked-token bonds into instantly tradable assets through algorithmic market-making pools that eliminate traditional OTC discounts.",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://harborprotocol.xyz",
 	fontFamily: "Inter Variable"
 };

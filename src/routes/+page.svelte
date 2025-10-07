@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+
+	// Icons
+	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconZap from "~icons/lucide/zap";
+	import IconCalendar from "~icons/lucide/calendar";
+	import IconGlobe from "~icons/lucide/globe";
+	import IconShield from "~icons/lucide/shield";
+	import IconNetwork from "~icons/lucide/network";
 </script>
 
 <CenteredTextOnlyHero
@@ -25,37 +33,35 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Liquidity for locked tokens"
+	text="Harbor Protocol transforms illiquid vested tokens into tradable assets through algorithmic market making on Uniswap V4. DAO treasury managers at mid-to-large protocols can now liquidate locked tokens at 8-12% discounts instead of losing 25-45% through traditional OTC deals. By standardizing maturities and concentrating liquidity, we deliver transparent, on-demand pricing that makes bond issuance finally attractive for protocol treasuries."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Malhotra",
+			position: "Treasury Lead",
+			company: "Cascade Protocol",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We cut our vested token liquidation costs from 38% to 11% using Harbor's algorithmic pools. That saved us $840K on a $3M treasury operation—funding we immediately redirected to protocol development.",
+			image: "/generated/image-a-professional-asian-woman-in-her-30s-dr.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Karim Hassan",
+			position: "Head of Finance",
+			company: "Nexus DAO",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Harbor, selling locked tokens meant waiting weeks for OTC buyers and accepting brutal discounts. Now we get transparent, on-demand pricing in minutes. It's transformed how we manage contributor vesting schedules.",
+			image: "/generated/image-a-professional-middle-eastern-man-in-his.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Zara Williams",
+			position: "Operations Director",
+			company: "Meridian Governance",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Harbor eliminated the opaque OTC middlemen who were charging us 32% discounts. The standardized maturity pools gave us predictable liquidity exactly when we needed it for operational expenses. Game changer for treasury planning.",
+			image: "/generated/image-a-professional-black-woman-in-her-early-.webp"
 		}
 	]}
 />
