@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Transform illiquid bonds into liquid assets"
+	subtitle="Harbor Protocol eliminates 25-45% OTC discounts through algorithmic market making, delivering transparent pricing for locked-token bonds on Uniswap V4."
+	imageSrc="/generated/image-a-sophisticated-professional-in-their-ea.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading DeFi protocols"
+	logoUrls={[
+		'https://cdn.brandfetch.io/uniswap.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/aave.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/sablier.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/compound.finance/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
