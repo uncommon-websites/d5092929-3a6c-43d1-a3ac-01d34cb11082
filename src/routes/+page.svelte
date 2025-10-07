@@ -108,5 +108,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop losing millions to OTC discounts"
+	subtitle="Start liquidating vested tokens at transparent, algorithmic rates"
+	description="Join the DAO treasury managers who are cutting their discount rates from 35% down to 8-12%. Harbor Protocol delivers instant liquidity without the friction and unfavorable terms of traditional OTC deals."
+	imageSrc="/generated/image-a-confident-professional-in-their-early-.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Request early access",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>
